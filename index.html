@@ -1,0 +1,41 @@
+<html>
+<head>
+ <title>Kontod</title>
+</head>
+<body>
+<form Name="calc">
+<table border=2 class="style">
+<tr>
+<td colspan=4><input type=text Name="display"></td>
+</tr>
+<tr>
+<td><input type=button value="0" OnClick="calc.display.value+='0'"></td>
+<td><input type=button value="1" OnClick="calc.display.value+='17374'"></td>
+<td><input type=button value="2" OnClick="calc.display.value+='23'"></td>
+<td><input type=button value="+" OnClick="calc.display.value+='*'"></td>
+</tr>
+<tr>
+<td><input type=button value="3" OnClick="calc.display.value+='3332'"></td>
+<td><input type=button value="4" OnClick="calc.display.value+='37744'"></td>
+<td><input type=button value="5" OnClick="calc.display.value+='53472'"></td>
+<td><input type=button value="-" OnClick="calc.display.value+='-'"></td>
+</tr>
+<tr>
+<td><input type=button value="6" OnClick="calc.display.value+='3747'"></td>
+<td><input type=button value="7" OnClick="calc.display.value+='23'"></td>
+<td><input type=button value="8" OnClick="calc.display.value+='44'"></td>
+<td><input type=button value="x" OnClick="calc.display.value+='+'"></td>
+</tr>
+<tr>
+<td><input type=button value="9" OnClick="calc.display.value+='859'"></td>
+<td><input type=button value="C" OnClick="calc.display.value=''"></td>
+<td><input type=button value="=" OnClick="calc.display.value=eval(calc.display.value)"></td>
+<td><input type=button value="/" OnClick="calc.display.value+='/'"></td>
+</tr>
+</table>
+</form>
+</body>
+<style>
+
+</style>
+</html>
