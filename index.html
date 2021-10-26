@@ -6,28 +6,33 @@
 <form Name="calc">
 <table border=2 class="style">
 <tr>
-<td colspan=4><input type=text Name="display"></td>
+<td colspan=4><input type=text Name="display" placeholder="Copas? Kalkul easy kali"></td>
+</tr>
+<tr>
+<td><input type=button value="(" OnClick="calc.display.value+='('"></td>
+<td><input type=button value=")" OnClick="calc.display.value+=')"></td>
+<td><input type=button value="#" href="https://wa.me/6281247374916"></td>
 </tr>
 <tr>
 <td><input type=button value="0" OnClick="calc.display.value+='0'"></td>
-<td><input type=button value="1" OnClick="calc.display.value+='17374'"></td>
-<td><input type=button value="2" OnClick="calc.display.value+='23'"></td>
-<td><input type=button value="+" OnClick="calc.display.value+='*'"></td>
+<td><input type=button value="1" OnClick="calc.display.value+='1'"></td>
+<td><input type=button value="2" OnClick="calc.display.value+='2'"></td>
+<td><input type=button value="+" OnClick="calc.display.value+='+'"></td>
 </tr>
 <tr>
-<td><input type=button value="3" OnClick="calc.display.value+='3332'"></td>
-<td><input type=button value="4" OnClick="calc.display.value+='37744'"></td>
-<td><input type=button value="5" OnClick="calc.display.value+='53472'"></td>
+<td><input type=button value="3" OnClick="calc.display.value+='3'"></td>
+<td><input type=button value="4" OnClick="calc.display.value+='4'"></td>
+<td><input type=button value="5" OnClick="calc.display.value+='5'"></td>
 <td><input type=button value="-" OnClick="calc.display.value+='-'"></td>
 </tr>
 <tr>
-<td><input type=button value="6" OnClick="calc.display.value+='3747'"></td>
-<td><input type=button value="7" OnClick="calc.display.value+='23'"></td>
-<td><input type=button value="8" OnClick="calc.display.value+='44'"></td>
-<td><input type=button value="x" OnClick="calc.display.value+='+'"></td>
+<td><input type=button value="6" OnClick="calc.display.value+='6'"></td>
+<td><input type=button value="7" OnClick="calc.display.value+='7'"></td>
+<td><input type=button value="8" OnClick="calc.display.value+='8'"></td>
+<td><input type=button value="x" OnClick="calc.display.value+='*'"></td>
 </tr>
 <tr>
-<td><input type=button value="9" OnClick="calc.display.value+='859'"></td>
+<td><input type=button value="9" OnClick="calc.display.value+='9'"></td>
 <td><input type=button value="C" OnClick="calc.display.value=''"></td>
 <td><input type=button value="=" OnClick="calc.display.value=eval(calc.display.value)"></td>
 <td><input type=button value="/" OnClick="calc.display.value+='/'"></td>
